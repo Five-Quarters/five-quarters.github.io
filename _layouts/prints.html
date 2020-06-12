@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    <p class="rss-subscribe"><i class="fa fa-rss"></i> subscribe <a href="{{ "/prints.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.prints.size > 0 -%}
+    <ul class="post-list">
+      {%- for print in site.prints reversed -%}
+      <li>
+        <div class="print-row">
+          <div class="print-column">
+            <h3>
+              <a class="post-link" href="{{ print.url | relative_url }}">
+                {{ print.title | escape }}
+              </a>
+            </h3>
+            <p>{{ print.description }}</p>
+            <p>Edition of {{ print.edition }}</p>
+            <p>{{ print.width }}&times;{{ print.height }} cm - {{ print.price }}</p>
+            {%- if site.etsy_username != blank and print.esty_id != blank -%}
+            <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ print.etsy_id }}">Buy this print online</a></p>
+            {%- endif -%}
+          </div>
+          <div class="print-column">
+            <a class="post-link" href="{{ print.url | relative_url }}">
+              <img src="/assets/img/prints/{{ print.image_name }}-small.png">
+            </a>
+          </div>
+      </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      Released: 
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div>
+      <p>{{ page.description }}</p>
+      <p>Edition of {{ page.edition }}</p>
+      <p>{{ page.width }}&times;{{ page.height }} cm</p>
+      <p>{{ page.price }}</p>
+      {%- if site.etsy_username != blank and print.esty_id != blank -%}
+      <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ page.etsy_id }}"><i class="fa fa-etsy"></i> Buy this print on Etsy</a></p>
+      {%- endif -%}
+    </div>
+    <div>
+      <img src="/assets/img/prints/{{ page.image_name }}-large.jpg">
+    </div>
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
