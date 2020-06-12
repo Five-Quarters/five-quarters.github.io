@@ -23,9 +23,11 @@ email: contact@fivequarters.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: Europe/London
 etsy_username: FiveQuartersUK
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: fivequartersnw
+artist_twitter_username: sjohndavey
+artist_instagram_username:  sjohndavey
 
 # Build settings
 theme: minima

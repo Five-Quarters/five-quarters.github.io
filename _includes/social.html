@@ -1,15 +1,15 @@
 <ul class="social-media-list">
   <li>Social</li>
-  <li><a href="https://twitter.com/fivequartersnw">
-    <i class="fa fa-twitter fa-lg"></i>
-    <span class="username">fivequartersnw</span></a>
+  <li><a href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}">
+    <i class="fa fa-twitter-square fa-lg"></i>
+    <span class="username">{{ site.twitter_username }}</span></a>
   </li>
-  <li><a href="https://twitter.com/sjohndavey">
-    <i class="fa fa-twitter fa-lg"></i>
-    <span class="username">sjohndavey</span></a>
+  <li><a href="https://twitter.com/{{ site.artist_twitter_username | cgi_escape | escape }}">
+    <i class="fa fa-twitter-square fa-lg"></i>
+    <span class="username">{{ site.artist_twitter_username }}</span></a>
   </li>
-  <li><a href="https://www.instagram.com/sjohndavey/">
+  <li><a href="https://www.instagram.com/{{ site.artist_instagram_username | cgi_escape | escape }}/">
     <i class="fa fa-instagram fa-lg"></i>
-    <span class="username">sjohndavey</span></a>
+    <span class="username">{{ site.artist_instagram_username }}</span></a>
   </li>
 </ul>
