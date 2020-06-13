@@ -8,16 +8,16 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>Email</li>
+          <h4>Email</h4>
           <li>
             <a class="u-email" href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a>
           </li>
-
-          <li>Shop</li>
+          <p></p>
+          <h4>Shop</h4>
           <li>
-            <a href="https://www.etsy.com/uk/shop/FiveQuartersUK">
+            <a href="https://www.etsy.com/uk/shop/{{ site.etsy_username | cgi_escape | escape }}">
             <i class="fa fa-etsy"></i>
-            <span class="username">FiveQuartersUK</span></a>
+            <span class="username">{{ site.etsy_username }}</span></a>
           </li>
         </ul>
       </div>
