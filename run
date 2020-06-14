@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+cd "$(dirname "$0")"
+/usr/local/opt/ruby/bin/bundle exec jekyll serve
