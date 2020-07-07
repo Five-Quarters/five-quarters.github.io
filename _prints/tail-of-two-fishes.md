@@ -8,5 +8,5 @@ width: 15
 height: 9
 price: "£17.50"
 etsy_id: 820750132
-image_name: tail-two-fishes
+image_name: Tail-two-fishes
 ---
