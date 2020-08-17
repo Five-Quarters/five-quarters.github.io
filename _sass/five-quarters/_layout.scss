@@ -269,3 +269,29 @@
   clear: both;
   display: table;
 }
+
+.home-hero-image {
+  float: left;
+  width: 50%;
+}
+
+.home-hero-text {
+  float: left;
+  width: 40%;
+  // margin-right: 3em;
+}
+
+.home-column {
+  float: left;
+  width: 50%;
+}
+
+.home-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mt3 {
+  margin-top: 3em;
+}

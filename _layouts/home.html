@@ -7,28 +7,30 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Recent news" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+  {%- if site.prints.size > 0 -%}
+    {% assign prints = site.prints | reverse %}
+    {%- for print in prints limit:1 -%}
+    <div class="home-row">
+      <div class="home-hero-image">
+        <a class="post-link" href="{{ print.url | relative_url }}">
+          <img src="/assets/img/prints/{{ print.image_name }}-small.png">
+        </a>
+      </div>
+      <div class="home-hero-text">
+        <p>{{ content }}</p>
+        <p><strong>NEW!</strong> {{ print.title | escape }} - {{ print.description }}. <a href="{{ print.url | relative_url }}">See more about this print.</a></p>
+      </div>
+    </div>
+    {%- endfor -%}
+    <div class="home-row mt3"></div>
+      {%- for print in prints limit:2 offset:1 -%}
+      <div class="home-column">
+        <a class="post-link" href="{{ print.url | relative_url }}">
+          <img src="/assets/img/prints/{{ print.image_name }}-small.png">
+        </a>
+      </div>
       {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </div>
   {%- endif -%}
 
 </div>
