@@ -8,5 +8,5 @@ width: 5.5
 height: 10
 price: "£12.50"
 etsy_id: 865683687
-image_name: cat-on-a-pedestal
+image_name: Cat-on-a-pedestal
 ---
