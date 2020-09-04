@@ -1,7 +1,7 @@
 ---
 layout: print
 date:   2020-07-06 00:00:00 +0100
-title:  "A Tail of two fishes"
+title:  "A Tail of Two Fishes"
 description: "Two colour lino print on paper"
 edition: 15
 width: 15
