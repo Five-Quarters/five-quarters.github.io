@@ -31,18 +31,11 @@ artist_instagram_username:  sjohndavey
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 collections:
   prints:
     output: true
     sort_by: date desc
-
-feed:
-  collections:
-    prints:
-      path: "/prints.xml"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
