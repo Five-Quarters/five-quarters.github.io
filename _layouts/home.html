@@ -18,7 +18,7 @@ layout: default
       </div>
       <div class="home-hero-text">
         <p>{{ content }}</p>
-        <p><strong>NEW!</strong> {{ print.title | escape }} - {{ print.description }}. <a href="{{ print.url | relative_url }}">See more about this print.</a></p>
+        <p><strong>NEW!</strong> {{ print.title | escape }}.<br /><a href="{{ print.url | relative_url }}">See more about this print.</a></p>
       </div>
     </div>
     {%- endfor -%}
