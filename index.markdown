@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Five Quarters features [prints](/prints) by [John Davey](/about), an artist and printmaker based in the North West of England.
+Five Quarters features fun a quirky [lino prints](/prints) by artist and printmaker [John Davey].
