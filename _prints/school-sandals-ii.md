@@ -7,6 +7,6 @@ edition: 5
 width: 12.5
 height: 11
 price: "£10.00"
-etsy_id: 646471715
+etsy_id: 
 image_name: School-sandals-II
 ---
