@@ -23,8 +23,12 @@ layout: default
             <p>{{ print.description }}</p>
             <p>Edition of {{ print.edition }}</p>
             <p>{{ print.width }}&times;{{ print.height }} cm - {{ print.price }}</p>
-            {%- if site.etsy_username != blank and print.esty_id != blank -%}
-            <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ print.etsy_id }}">Buy this print online</a></p>
+            {%- if print.etsy_id -%}
+              {%- if site.etsy_username -%}
+              <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ print.etsy_id }}">Buy this print online</a></p>
+              {%- endif -%}
+            {%- elsif print.etsy_id_missing_text -%}
+            <p>{{ print.etsy_id_missing_text }}</p>
             {%- endif -%}
           </div>
           <div class="print-column">
