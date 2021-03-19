@@ -6,7 +6,7 @@ description: "Two colour lino print on paper"
 edition: 25
 width: 7.5
 height: 11
-price: "£20.00"
+price: "£17.50"
 etsy_id: 742033365
 image_name: 3-fishes
 ---

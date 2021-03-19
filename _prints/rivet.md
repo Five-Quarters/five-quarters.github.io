@@ -1,12 +1,12 @@
 ---
 layout: print
-date:   2020-06-10 00:00:00 +0100
-title:  "3 Fishes"
+date:   2021-03-19 00:00:00 +0100
+title:  "Rivet"
 description: "Two colour lino print on paper"
-edition: 25
-width: 7.5
-height: 11
-price: "£20.00"
-etsy_id: 742033365
-image_name: 3-fishes
+edition: 15
+width: 8
+height: 11.5
+price: "£17.50"
+etsy_id: 984071351
+image_name: rivet
 ---

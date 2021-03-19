@@ -6,7 +6,7 @@ description: "Reduction two colour lino print on paper"
 edition: 15
 width: 13
 height: 10
-price: "£22.50"
+price: "£17.50"
 etsy_id: 674358007
 image_name: Scooter
 ---

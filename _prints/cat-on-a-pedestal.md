@@ -6,7 +6,7 @@ description: "Lino print on paper"
 edition: 25
 width: 5.5
 height: 10
-price: "£12.50"
+price: "£12.00"
 etsy_id: 865683687
 image_name: Cat-on-a-pedestal
 ---
