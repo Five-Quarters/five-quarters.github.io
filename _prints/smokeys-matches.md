@@ -6,7 +6,7 @@ description: "Lino print on paper"
 edition: 15
 width: 8
 height: 4.5
-price: "£12.00"
+price: "£13.50"
 etsy_id: 699249966
 image_name: Smokeys
 ---

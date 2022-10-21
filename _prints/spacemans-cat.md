@@ -6,7 +6,7 @@ description: "Lino print on paper"
 edition: 20
 width: 10
 height: 10
-price: "£13.50"
+price: "£15.00"
 etsy_id: 855767635
 image_name: spacemans-cat
 ---

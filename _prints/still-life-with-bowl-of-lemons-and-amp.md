@@ -6,7 +6,7 @@ description: "Three colour lino print on paper"
 edition: 15
 width: 12.5
 height: 12.5
-price: "£17.50"
+price: "£20.00"
 etsy_id: 884152651
 image_name: Lemons-and-amp
 ---

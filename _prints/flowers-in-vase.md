@@ -6,7 +6,7 @@ description: "Lino print on paper"
 edition: 5
 width: 8
 height: 12.5
-price: "£12.00"
+price: "£15.00"
 etsy_id: 631885706
 image_name: Flowers-in-vase
 ---

@@ -6,7 +6,8 @@ description: "Two colour lino print on paper"
 edition: 20
 width: 7
 height: 10
-price: "£17.50"
-etsy_id: 771085203
+price: "£20.00"
+etsy_id:
+etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact us</a> if you are interested in this print
 image_name: local-legend
 ---

@@ -6,7 +6,7 @@ description: "Two colour lino print on paper"
 edition: 15
 width: 15
 height: 9
-price: "£17.50"
+price: "£20.00"
 etsy_id: 820750132
 image_name: Tail-two-fishes
 ---
