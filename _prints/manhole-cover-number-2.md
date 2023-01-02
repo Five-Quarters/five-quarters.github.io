@@ -8,5 +8,5 @@ width: 14
 height: 14
 price: "£22.50"
 etsy_id: 1384243753
-image_name: Manhole-cover-no2
+image_name: manhole-cover-no2
 ---
