@@ -12,4 +12,4 @@ I've been creating lino prints since discovering a love for the medium in 2014.
 
 You can [see my prints](/prints/) on this site, and can buy them in my [Five Quarters Etsy shop](https://www.etsy.com/uk/shop/FiveQuartersUK).
 
-![fishes](/assets/img/prints/3-fishes-small.png)
+![blueprint](/assets/img/prints/the-blueprint-small.png)
