@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.illustrations.size > 0 -%}
+    <ul class="post-list">
+      {%- for illustration in site.illustrations reversed -%}
+      <li>
+        <div class="illustration-row">
+          <div class="illustration-column">
+            <h3>
+              <a class="post-link" href="{{ illustration.url | relative_url }}">
+                {{ illustration.title | escape }}
+              </a>
+            </h3>
+            <p>{{ illustration.description }}</p>
+            <p>{{ illustration.width }}&times;{{ illustration.height }} cm - {{ illustration.price }}</p>
+            {%- if illustration.etsy_id -%}
+              {%- if site.etsy_username -%}
+              <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ illustration.etsy_id }}">Buy this illustration online</a></p>
+              {%- endif -%}
+            {%- elsif illustration.etsy_id_missing_text -%}
+            <p>{{ illustration.etsy_id_missing_text }}</p>
+            {%- endif -%}
+          </div>
+          <div class="illustration-column">
+            <a class="post-link" href="{{ illustration.url | relative_url }}">
+              <img src="/assets/img/illustrations/{{ illustration.image_name }}-small.png">
+            </a>
+          </div>
+      </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
