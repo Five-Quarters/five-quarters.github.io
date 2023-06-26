@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 10
 ---
 
 I'm John Davey, an artist and printmaker based in the North West of England. Five Quarters features my creative and quirky prints.

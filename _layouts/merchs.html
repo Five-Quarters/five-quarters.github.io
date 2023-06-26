@@ -21,7 +21,7 @@ layout: default
               </a>
             </h3>
             <p>{{ merch.description }}</p>
-            <p>{{ merch.width }}&times;{{ merch.height }} cm - {{ merch.price }}</p>
+            <p>{{ merch.price }}</p>
             {%- if merch.etsy_id -%}
               {%- if site.etsy_username -%}
               <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ merch.etsy_id }}">Buy this merch online</a></p>
