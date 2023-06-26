@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.merch.size > 0 -%}
+    <ul class="post-list">
+      {%- for merch in site.merch reversed -%}
+      <li>
+        <div class="merch-row">
+          <div class="merch-column">
+            <h3>
+              <a class="post-link" href="{{ merch.url | relative_url }}">
+                {{ merch.title | escape }}
+              </a>
+            </h3>
+            <p>{{ merch.description }}</p>
+            <p>{{ merch.width }}&times;{{ merch.height }} cm - {{ merch.price }}</p>
+            {%- if merch.etsy_id -%}
+              {%- if site.etsy_username -%}
+              <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ merch.etsy_id }}">Buy this merch online</a></p>
+              {%- endif -%}
+            {%- elsif merch.etsy_id_missing_text -%}
+            <p>{{ merch.etsy_id_missing_text }}</p>
+            {%- endif -%}
+          </div>
+          <div class="merch-column">
+            <a class="post-link" href="{{ merch.url | relative_url }}">
+              <img src="/assets/img/merch/{{ merch.image_name }}-small.png">
+            </a>
+          </div>
+      </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
