@@ -6,7 +6,7 @@ description: "Three colour lino print on paper"
 edition: 10
 width: 21
 height: 15.5
-price: "£20.00"
+price: "£22.50"
 etsy_id: 1564617112
 image_name: Lone-cloud
 ---
