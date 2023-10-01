@@ -8,5 +8,5 @@ width: 21
 height: 15.5
 price: "£20.00"
 etsy_id: 1564617112
-image_name: lone-cloud
+image_name: Lone-cloud
 ---
