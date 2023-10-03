@@ -1,6 +1,6 @@
 ---
 layout: merchs
 title: Merch
-permalink: /merch/
+permalink: /merchs/
 order: 40
 ---
