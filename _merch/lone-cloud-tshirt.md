@@ -1,6 +1,6 @@
 ---
 layout: merch
-date: 2023-10-2403 00:00:00 +0100
+date: 2023-10-04 00:00:00 +0100
 title: "'Lone Cloud' T-shirt"
 description: "Printed T-shirt."
 width: 7
