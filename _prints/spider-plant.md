@@ -2,7 +2,7 @@
 layout: print
 date:   2023-03-28 00:00:00 +0100
 title:  "Spider plant"
-description: "Three colour linoprint on paper"
+description: "Three colour lino print on paper"
 edition: 15
 width: 8
 height: 8
