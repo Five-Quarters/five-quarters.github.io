@@ -7,6 +7,6 @@ width: 7
 height: 5
 price: "£20.00"
 etsy_id: 
-etsy_id_missing_text: <p>T-shirt printed with 'Lone Cloud' linoprint design.</p><p>Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you are interested in buying one of these T-shirts.</p> 
+etsy_id_missing_text: <p>T-shirt printed with 'Lone Cloud' lino print design.</p><p>Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you are interested in buying one of these T-shirts.</p> 
 image_name: lone-cloud-tshirt
 ---
