@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.card.size > 0 -%}
+    <ul class="post-list">
+      {%- for card in site.card reversed -%}
+      <li>
+        <div class="card-row">
+          <div class="card-column">
+            <h3>
+              <a class="post-link" href="{{ card.url | relative_url }}">
+                {{ card.title | escape }}
+              </a>
+            </h3>
+            <p>{{ card.description }}</p>
+            <p>{{ card.price }}</p>
+            {%- if card.etsy_id -%}
+              {%- if site.etsy_username -%}
+              <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ card.etsy_id }}">Buy this card online</a></p>
+              {%- endif -%}
+            {%- elsif card.etsy_id_missing_text -%}
+            <p>{{ card.etsy_id_missing_text }}</p>
+            {%- endif -%}
+          </div>
+          <div class="card-column">
+            <a class="post-link" href="{{ card.url | relative_url }}">
+              <img src="/assets/img/cards/{{ card.image_name }}-small.png">
+            </a>
+          </div>
+      </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>

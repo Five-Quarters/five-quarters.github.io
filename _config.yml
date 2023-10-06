@@ -40,6 +40,9 @@ collections:
   illustrations:
     output: true
     sort_by: date desc
+  cards:
+    output: true
+    sort_by: date desc
   merch:
     output: true
     sort_by: date desc
