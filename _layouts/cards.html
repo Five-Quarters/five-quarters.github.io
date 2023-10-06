@@ -9,9 +9,9 @@ layout: default
 
   {{ content }}
 
-  {%- if site.card.size > 0 -%}
+  {%- if site.cards.size > 0 -%}
     <ul class="post-list">
-      {%- for card in site.card reversed -%}
+      {%- for card in site.cards reversed -%}
       <li>
         <div class="card-row">
           <div class="card-column">
