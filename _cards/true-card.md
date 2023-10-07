@@ -1,7 +1,7 @@
 ---
 layout: card
 date: 2023-10-05 02:00:00 +0100
-title: "'Just Be True' Card"
+title: "Just Be True"
 description: "Printed greetings card."
 width: 7
 height: 5
