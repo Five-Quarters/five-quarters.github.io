@@ -37,9 +37,6 @@ collections:
   prints:
     output: true
     sort_by: date desc
-  illustrations:
-    output: true
-    sort_by: date desc
   cards:
     output: true
     sort_by: date desc
