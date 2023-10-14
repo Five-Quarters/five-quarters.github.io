@@ -2,7 +2,7 @@
 layout: print
 date:   2020-06-08 00:00:00 +0100
 title:  "All Star Cool"
-description: "Reduction two colour lino print on paper"
+description: "Two colour reduction lino print on paper"
 edition: 20
 width: 16
 height: 11.5
