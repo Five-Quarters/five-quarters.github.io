@@ -8,6 +8,6 @@ width: 12.5
 height: 11
 price: "£12.00"
 etsy_id: 
-etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you are interested in this print.
+etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> about this print.
 image_name: School-sandals-II
 ---
