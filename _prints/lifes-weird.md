@@ -7,6 +7,7 @@ edition: 20
 width: 8
 height: 12
 price: "£17.50"
-etsy_id: 631851322
+etsy_id:
+etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you're interested in buying this print.
 image_name: Lifes-weird
 ---

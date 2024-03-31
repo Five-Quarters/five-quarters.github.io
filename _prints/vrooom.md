@@ -7,6 +7,7 @@ edition: 15
 width: 13
 height: 10
 price: "£20.00"
-etsy_id: 674358007
+etsy_id:
+etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you're interested in buying this print.
 image_name: Scooter
 ---
