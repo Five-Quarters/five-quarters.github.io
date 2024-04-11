@@ -13,4 +13,8 @@ Mostly I create lino prints - I discovered a love for the medium in 2014, and so
 
 I originally trained as an illustrator and spent many years working in illustration and design.
 
-![blueprint](/assets/img/prints/Lone-cloud-small.png)
+NEWS
+
+There's a giant version of my '3 Fishes' lino print outside the Markets in Preston City Centre. My print was selected as one of nine artworks to display as part of the 'Fill the Frame' project. The artwork, which is as tall as I am, was blown up from a print that was only 7.5 x 11cm!
+
+![blueprint](/assets/img/prints/news-market-large.jpg)
