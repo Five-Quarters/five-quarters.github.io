@@ -13,6 +13,4 @@ Mostly I create lino prints - I discovered a love for the medium in 2014, and so
 
 I originally trained as an illustrator and spent many years working in illustration and design.
 
-You can [see my prints](/prints/) on this site, and can buy them in my [Five Quarters Etsy shop](https://www.etsy.com/uk/shop/FiveQuartersUK).
-
 ![blueprint](/assets/img/prints/Lone-cloud-small.png)
