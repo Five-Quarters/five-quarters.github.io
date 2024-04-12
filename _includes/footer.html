@@ -7,19 +7,7 @@
 
     <div class="footer-col-wrapper">
 
-
       <div class="footer-col footer-col-1">
-        
-        <ul class="contact-list">
-          <h4>Enquiries</h4>
-          <li>
-            <a class="u-email" href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a>
-          </li>     
-        </ul>
-      </div>
-      <!-- </div> -->
-
-      <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           <h4>Social</h4>
           <li><a href="https://www.instagram.com/{{ site.artist_instagram_username | cgi_escape | escape }}/">
@@ -33,6 +21,20 @@
         </ul>
        <!--{%- include social.html -%} -->
       </div>
+
+
+      <div class="footer-col footer-col-2">
+        
+        <ul class="contact-list">
+          <h4>Enquiries</h4>
+          <li>
+            <a class="u-email" href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a>
+          </li>     
+        </ul>
+      </div>
+      <!-- </div> -->
+
+      
     </div>
 
   </div>
