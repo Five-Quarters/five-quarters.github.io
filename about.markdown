@@ -15,7 +15,7 @@ I originally trained as an illustrator and spent many years working in illustrat
 
 <b>NEWS...</b>
 
-Currently, there's a giant version of one of my lino prints outside the Markets in Preston City Centre.  
+Currently, there's a giant version of one of my lino prints outside the Markets in Preston city centre.  
 
 '3 Fishes' was selected as one of nine artworks to display as part of the 'Fill the Frame' project. The artwork, which is as tall as I am, was blown up from a print that was only 7.5 x 11cm!
 
