@@ -37,6 +37,9 @@ collections:
   prints:
     output: true
     sort_by: date desc
+  monoprints:
+    output: true
+    sort_by: date desc
   cards:
     output: true
     sort_by: date desc

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.monoprints.size > 0 -%}
+    <ul class="post-list">
+      {%- for monoprint in site.monoprints reversed -%}
+      <li>
+        <div class="monoprint-row">
+          <div class="monoprint-column">
+            <h3>
+              <a class="post-link" href="{{ monoprint.url | relative_url }}">
+                {{ monoprint.title | escape }}
+              </a>
+            </h3>
+            <p>{{ monoprint.description }}</p>
+            <p>{{ monoprint.price }}</p>
+            {%- if monoprint.etsy_id -%}
+              {%- if site.etsy_username -%}
+              <p><a href="https://www.etsy.com/uk/{{ site.etsy_username }}/listing/{{ monoprint.etsy_id }}">Buy this monoprint online</a></p>
+              {%- endif -%}
+            {%- elsif monoprint.etsy_id_missing_text -%}
+            <p>{{ monoprint.etsy_id_missing_text }}</p>
+            {%- endif -%}
+          </div>
+          <div class="monoprint-column">
+            <a class="post-link" href="{{ monoprint.url | relative_url }}">
+              <img src="/assets/img/monoprints/{{ monoprint.image_name }}-small.png">
+            </a>
+          </div>
+      </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
