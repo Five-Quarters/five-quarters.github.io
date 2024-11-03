@@ -2,5 +2,5 @@
 layout: monoprints
 title: Monoprints
 permalink: /monoprints/
-order: 40
+order: 30
 ---
