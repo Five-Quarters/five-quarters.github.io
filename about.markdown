@@ -13,7 +13,7 @@ I discovered a love for lino printing in 2014, and soon after that I bought an o
 
 I originally trained as an illustrator and spent many years working in illustration and design.
 
-<h2>News...</h2>
+<h2>News</h2>
 <h3>Latest...</h3>
 
 I'm pleased to say that I've recently had three prints accepted for the King Street Arts 8th Annual Art Fair.
