@@ -9,5 +9,5 @@ height: 10
 price: "£17.50"
 etsy_id:
 etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you're interested in buying this print.
-image_name: strongest-cat-pink
+image_name: strongest-cat-teal
 ---
