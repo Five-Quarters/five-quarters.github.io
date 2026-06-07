@@ -6,7 +6,7 @@ description: "Lino print on rice paper"
 edition: 5
 width: 12.5
 height: 11
-price: "£12.00"
+price: "£15.00"
 etsy_id: 
 etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you're interested in buying this print.
 image_name: School-sandals-II

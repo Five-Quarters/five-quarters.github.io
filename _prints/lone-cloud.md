@@ -6,7 +6,7 @@ description: "Three colour reduction lino print on paper"
 edition: 10
 width: 21
 height: 15.5
-price: "£22.50"
+price: "£25.00"
 etsy_id:
 etsy_id_missing_text: Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you're interested in buying this print.
 image_name: Lone-cloud
