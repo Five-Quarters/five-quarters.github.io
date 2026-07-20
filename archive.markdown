@@ -2,7 +2,7 @@
 layout: page
 title: news archive
 permalink: /archive/
-order: 
+order: 50
 ---
 
 <h3>King Street Arts Fair 2024</h3>
