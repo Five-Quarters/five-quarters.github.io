@@ -1,6 +1,6 @@
 ---
 layout: page
-title: news archive
+title: News archive
 permalink: /archive/
 order: 50
 ---
