@@ -8,6 +8,6 @@ width: 12.5
 height: 12.5
 price: "£35.00"
 etsy_id: 
-etsy_id_missing_text: <p>Sold.</p> 
+etsy_id_missing_text: <p>SOLD.</p> 
 image_name: untitled-ochre-1
 ---
