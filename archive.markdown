@@ -2,7 +2,7 @@
 layout: page
 title: news archive
 permalink: archive
-order: 51
+order: 
 
 <h3>King Street Arts Fair 2024</h3>
 I'm pleased to say that I've recently had three prints accepted for the King Street Arts 8th Annual Art Fair.
