@@ -22,4 +22,8 @@ I originally trained as an illustrator and spent many years working in illustrat
 <h2>News</h2>
 <h3>Latest...</h3>
 
-More news coming soon.
+This latest news post is actually the first of a few updates that look back to how I've got to where I am now. 
+
+So, here's a throwback to when I was an illustrator. I did a lot of work for weekly magazines, often simple humorous images to accompany editorial stories. Here's a few examples from the mid to late 1980s.
+
+![magazine illustrations](/assets/img/news/magazines.jpg)
