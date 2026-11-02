@@ -1,5 +1,5 @@
 ---
-layout: print
+layout: print2
 date:   2026-11-02 00:00:00 +0100
 title:  "Denial"
 description: "Four colour reduction lino print on paper"
