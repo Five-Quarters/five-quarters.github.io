@@ -2,7 +2,7 @@
 layout: page
 title: About & news
 permalink: /about/
-order: 10
+order: 45
 ---
 
 I'm John Davey, an artist and printmaker based in the North West of England. 
