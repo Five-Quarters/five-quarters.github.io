@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About & news
+title: About
 permalink: /about/
 order: 45
 ---
