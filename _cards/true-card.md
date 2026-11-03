@@ -5,7 +5,7 @@ title: "Just Be True"
 description: "Printed greetings card."
 width: 7
 height: 5
-price: "£2.40"
+price: "£2.50"
 etsy_id: 
 etsy_id_missing_text: <p>The inside of the card is left blank for your own message. The design is printed onto silk finish card.</p><p>Buy any five cards and get a sixth card for free.</p><p>Please <a href="mailto:contact@fivequarters.co.uk">contact me</a> if you are interested in buying any of these cards.</p> 
 image_name: true-card
