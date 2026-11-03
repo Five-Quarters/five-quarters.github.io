@@ -1,6 +1,6 @@
 ---
 layout: prints
-title: Lino prints 1
+title: Lino prints
 permalink: /prints/
 order: 20
 ---
