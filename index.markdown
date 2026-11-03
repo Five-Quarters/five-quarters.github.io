@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Five Quarters features fun and quirky [lino prints](/prints) by [John Davey](/about).
+Five Quarters features a range of [lino prints](/prints), [monoprints](/monoprints) and [cards](/cards) by [John Davey](/about).
