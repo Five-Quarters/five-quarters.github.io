@@ -11,6 +11,9 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     <div>
+      <img src="/assets/img/monoprints/{{ page.image_name }}-large.jpg">
+    </div>
+    <div>
       <p>{{ page.description }}</p>
       <!-- <p>{{ page.width }}&times;{{ page.height }} cm</p>  -->
       <p>{{ page.price }}</p>
@@ -22,9 +25,7 @@ layout: default
       <p>{{ page.etsy_id_missing_text }}</p>
       {%- endif -%}
     </div>
-    <div>
-      <img src="/assets/img/monoprints/{{ page.image_name }}-large.jpg">
-    </div>
+    
     {{ content }}
   </div>
 
